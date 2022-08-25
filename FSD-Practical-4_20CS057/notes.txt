@@ -1,0 +1,84 @@
+What is react :
+    react is a javascript library
+    In React there are bunch of libraries.
+
+What is component in React :
+    component in react is nothing but a set of code which can be reuse
+    Eg : Header, Footer, etc
+
+* Types of components :
+
+1    Function components
+2    Class Components
+3    HOC (Hight Order Components)
+4    Pure Components
+5    Controlld component
+6    Uncontrolled component
+
+What is JSX
+    It is Javascript Xml (JSX) it is responsible for allowing us to write html between javascript
+    
+What is state
+    state is like variable where we can store data, and it is only for react.JS
+
+Why data is unupdateable when it stored in let data Types
+    When we make variable with state data type then when click on it it exprience an update
+    so itn try to execute
+    
+what is props
+    If you’re already familiar with how arguments & functions work in JavaScript, understanding props
+    is a piece of cake! In a nutshell, props are used to pass data from a parent component to a child
+    component in React and they are the main mechanism for component communication.
+
+What is useEffect hook
+    useEffect hook is nothing but but a function which is call when any component render and change 
+    it state means it will run two times respectively.
+
+Component cycle :
+    3 stages are there in component cycle
+        1) Render state
+        2) update state
+        3) destroy state (When previous component destroy).
+
+What is props
+    props is nothing but property which is use to send data or HTML from parent to child component
+
+What is e in function name(e){}
+    console.log(e); // e  -> whole code info
+    console.log(e.target); // e.target -> gives the info of that element where this function is called
+    console.log(e.target[0]); // e.target[0] -> gives the first element of target
+    console.log(e.target[1].value);
+
+What is useMemo?
+    useMemo is a hook which is use to prevent unwanted rerendering of specific function;
+
+What is useRef hook ?
+    useRef hook is use to manipulate the DOM or HTML flie fourcefully 
+    It is use when useState and other function are not work for same task;
+
+What are control component ?
+    When ever a component have input fields and are controled by state then those are called contol component.
+
+And what are Uncontrolled component ?
+    the component whaich are handle directly by DOM 
+
+What we called when our field is controlled by state and DOM both, is it called controlle or Uncontrolled component?
+
+what is react router V(verson)
+    when we install react router extension then it allo us to link more then one page
+    as in react there is allowance of onlt link one page.
+    
+What is useParams ?
+
+What is useSearchParams ?
+    it is a hook and use to get and set data from quert(URL or request) respectively
+
+What is useNavigate ?
+    It is a hook and it is use for navigate from one page to another page using buttons not link
+
+What is Outlet ?
+    Outlet - A component that renders the next match in a set of matches. Index Route - A child 
+    route with no path that renders in the parent's outlet at the parent's URL.
+
+What is routing ?
+    Converting components into pages and and open them on specific URl is called routing
